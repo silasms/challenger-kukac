@@ -1,0 +1,28 @@
+#vehicles {
+  width: 80%;
+  min-height: 250px;
+  height: auto;
+  margin: 60px auto;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  align-items: center;
+  h2 {
+    text-align: center;
+    margin-bottom: 13px;
+  }
+
+  #list {
+    display: flex;
+    justify-content: space-around;    
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    input {
+      margin-top: 10px;
+      width: 90%;
+    }
+  }
+}

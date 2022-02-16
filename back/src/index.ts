@@ -1,12 +1,10 @@
-import * as express from 'express'
+import express from 'express'
+import routes from "./routes"
+const cors = require("cors")
 const app = express()
-import route from "./route"
 
-app.use(route)
+app.use(express.json())
+app.use(cors())
+app.use(routes)
 
-app.listen(5000, (err: string) => {
-  if (err) {
-    throw new Error(err)
-  }
-  console.log("Starting server... http://localhost:5000")
-})
+app.listen(5000)

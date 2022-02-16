@@ -1,0 +1,43 @@
+#ceps {
+  width: 80%;
+  min-height: 250px;
+  height: auto;
+  margin: 60px auto;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  align-items: center;
+  h2 {
+    text-align: center;
+    margin-bottom: 13px;
+  }
+
+  #list {
+    display: flex;
+    justify-content: space-between;    
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    input {
+      margin-top: 10px;
+      width: 90%;
+    }
+  }
+}
+
+#cepSubmit {
+  background-color: rgba(43, 161, 216, 0.603);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  width: 80px;
+  border: none;
+  border-radius: 15px;
+  &:hover {
+    background-color:rgba(31, 112, 150, 0.603)
+  }
+}

@@ -1,0 +1,40 @@
+#palindrome {
+  width: 80%;
+  min-height: 250px;
+  height: auto;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  align-items: center;
+  h2 {
+    text-align: center;
+    margin-bottom: 13px;
+  }
+
+  form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    input {
+      width: 50%;
+    }
+  }
+  
+  #submitForm {
+    background-color: rgba(43, 161, 216, 0.603);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    &:hover {
+      background-color:rgba(31, 112, 150, 0.603)
+    }
+  }
+}
+
+#result {
+  line-break: normal;
+}
